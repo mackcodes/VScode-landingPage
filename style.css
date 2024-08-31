@@ -1,6 +1,5 @@
 .header{
     padding-left: 200px;
-    padding-right: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -33,6 +32,45 @@
     letter-spacing: -0.2px;
 }
 
-.buttons{
-    padding
+.base{
+    display: flex;
+    justify-content: space-between;
+}
+
+.base-description{
+    padding-left: 120px;
+    color: white;
+}
+
+.base-image{
+    padding-right: 120px;
+}
+
+.redefined{
+    font-size: 60px;
+}
+.code-editing{
+    font-size: 60px;
+}
+
+.download{
+    font-size: 30px;
+    background-color: blue;
+}
+
+
+.button-link {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background-color: #007ACC;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
 }
