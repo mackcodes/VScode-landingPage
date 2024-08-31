@@ -6,10 +6,11 @@
 
 .topLink{
     cursor: cursor;
-    color: gray;
+    color: #9d9d9d;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 500;
     padding-left: 20px;
+    font-size: 16px;
 }
 
 .version{
@@ -58,6 +59,16 @@
     background-color: blue;
 }
 
+.button1{
+    color: #fff;
+    background-color: #0078d4;;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
 
 .button-link {
     padding-top: 3%;
@@ -73,4 +84,22 @@
     border-radius: 5px;
     transition: background-color 0.3s ease;
     font-weight: bold;
+}
+
+.search{
+    background-color: black;
+    color: gray;
+
+}
+
+.below-download{
+    text-decoration: underline;
+    color: #007ACC;
+    /* font-size: 18px; */
+    font-size: 18px;
+    margin: 12px 0 6px 0;
+
+}
+.download-description{
+    padding-top: 20px;
 }
