@@ -1,16 +1,8 @@
-.VisualStudioCode{
-    font-size: 20px;
-    letter-spacing: -0.2px;
-    color: whitesmoke;
-    font-weight: 600;
-    
-}
-
-
 .header{
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .topLink{
@@ -19,4 +11,28 @@
     text-decoration: none;
     font-weight: 200;
     padding-left: 20px;
+}
+
+.version{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+
+.vsc{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+}
+
+.buttons{
+    padding
 }
