@@ -60,7 +60,7 @@
 .base-description{
     padding-left: 120px;
     color: white;
-    padding-top: 80px;
+    padding-top: 110px;
 }
 
 .base-image{
@@ -68,11 +68,14 @@
     padding-top: 20px;
 }
 
-.redefined{
+.redefined {
     font-size: 60px;
+    font-weight: 500;
 }
 .code-editing{
     font-size: 60px;
+    padding-top: 20px;
+    font-weight: 500;
 }
 
 .download{
