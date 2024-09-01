@@ -20,7 +20,8 @@
     color: gray;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .top{
