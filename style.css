@@ -4,6 +4,9 @@
 .header{
     display: flex;
     justify-content: space-between;
+    border: none;
+    gap: 4px;
+    
 }
 
 .topLink{
@@ -11,9 +14,9 @@
     color: #9ba3b4;
     text-decoration: none;
     font-weight: 500;
-    padding-left: 20px;
-    font-size: 16px;
-    padding-top: 2px;
+    padding-left: 21px;
+    font-size: 17px;
+    padding-top: 3px;
 }
 
 .version{
@@ -22,6 +25,7 @@
     justify-content: center;
     font-size: 14px;
     font-weight: 500;
+    padding: 8px;
 }
 
 .top{
@@ -29,22 +33,23 @@
     justify-content: space-between;
     padding-right: 130px;
     padding-left: 130px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .vcst{
     color: whitesmoke;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
     letter-spacing: -0.2px;
     text-decoration: none;
-    padding-left: 5px;
     padding-bottom: 20px;
+    background-size: 24px 24px;
+    min-height: 58px;
 
 }
 
 .vscl{
-    padding-top: 2px;
+    padding-top: 0px;
 }
 
 .base{
@@ -55,10 +60,12 @@
 .base-description{
     padding-left: 120px;
     color: white;
+    padding-top: 80px;
 }
 
 .base-image{
     padding-right: 120px;
+    padding-top: 20px;
 }
 
 .redefined{
@@ -80,8 +87,9 @@
     font-weight: 600;
     line-height: 100%;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 6px;
     text-decoration: none;
+    border-top: 5px;
 }
 
 .button-link {
@@ -133,4 +141,19 @@
     color: #9ba3b4;
     width: max-content;
     margin-bottom: 8px;
+}
+
+.terms{
+    color: #9ba3b4;
+    font-size: 11px;
+}
+
+.license, .privacy{
+    color: #4daafc;
+    text-decoration-color: #4daafc !important;
+    text-decoration: underline;
+}
+
+.down-search{
+    padding-top: 3px;
 }
