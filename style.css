@@ -1,15 +1,16 @@
 * {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     border: none;
     gap: 4px;
-    
 }
 
-.topLink{
+.topLink {
     cursor: cursor;
     color: #9ba3b4;
     text-decoration: none;
@@ -19,7 +20,57 @@
     padding-top: 3px;
 }
 
-.version{
+svg {
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: 30px;
+    top: 3px;
+    padding-left: 5px;
+}
+
+.search-icon {
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.search {
+    display: inline-block;
+    padding: 5px 1px 5px 29px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #9ba3b4;
+    background-color: #0e0e0e;
+    font-size: 14px;
+    line-height: 1.49;
+    width: 200px;
+    box-shadow: none;
+    transition: 0.8s ease-in;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.button1 {
+    color: #fff;
+    background-color: #0078d4;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.version {
     color: gray;
     display: flex;
     justify-content: center;
@@ -28,7 +79,7 @@
     padding: 8px;
 }
 
-.top{
+.top {
     display: flex;
     justify-content: space-between;
     padding-right: 130px;
@@ -36,7 +87,7 @@
     padding-top: 10px;
 }
 
-.vcst{
+.vcst {
     color: whitesmoke;
     font-weight: 600;
     font-size: 20px;
@@ -45,25 +96,24 @@
     padding-bottom: 20px;
     background-size: 24px 24px;
     min-height: 58px;
-
 }
 
-.vscl{
+.vscl {
     padding-top: 0px;
 }
 
-.base{
+.base {
     display: flex;
     justify-content: space-between;
 }
 
-.base-description{
+.base-description {
     padding-left: 120px;
     color: white;
     padding-top: 110px;
 }
 
-.base-image{
+.base-image {
     padding-right: 120px;
     padding-top: 20px;
 }
@@ -72,27 +122,16 @@
     font-size: 60px;
     font-weight: 500;
 }
-.code-editing{
+
+.code-editing {
     font-size: 60px;
     padding-top: 20px;
     font-weight: 500;
 }
 
-.download{
+.download {
     font-size: 30px;
     background-color: blue;
-}
-
-.button1{
-    color: #fff;
-    background-color: #0078d4;;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 100%;
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    border-top: 5px;
 }
 
 .button-link {
@@ -103,7 +142,7 @@
     display: inline-block;
     font-size: 20px;
     color: white;
-    background-color: #007ACC;
+    background-color: #007acc;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -111,30 +150,23 @@
     font-weight: bold;
 }
 
-.search{
-    background-color: black;
-    color: gray;
-    padding-top: 1px;
-
-}
-
-.below-download{
+.below-download {
     text-decoration: underline;
-    color: #007ACC;
+    color: #007acc;
     /* font-size: 18px; */
     font-size: 14px;
     margin: 16px 0 8px 0;
     font-weight: bold;
-
 }
-.download-description{
+
+.download-description {
     padding-top: 20px;
     line-height: 160%;
     font-size: 14px;
     color: #9ba3b4;
 }
 
-.above-base-description{
+.above-base-description {
     font-size: 14px;
     font-weight: 600;
     padding: 8px 12px;
@@ -146,17 +178,19 @@
     margin-bottom: 8px;
 }
 
-.terms{
+.terms {
     color: #9ba3b4;
     font-size: 11px;
 }
 
-.license, .privacy{
+.license,
+.privacy {
     color: #4daafc;
     text-decoration-color: #4daafc !important;
     text-decoration: underline;
 }
 
-.down-search{
+.down-search {
     padding-top: 3px;
+    display: flex;
 }
