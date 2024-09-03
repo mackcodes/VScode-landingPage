@@ -84,7 +84,7 @@ svg {
     justify-content: space-between;
     padding-right: 130px;
     padding-left: 130px;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 .vcst {
@@ -195,3 +195,7 @@ svg {
     display: flex;
 }
 
+
+.download-div{
+    padding-top: 1px;
+}
