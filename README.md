@@ -1,5 +1,7 @@
 # VS Code Landing Page
-[**Live Demo**]([https://your-deployed-link.com](https://mackcodes.github.io/VScode-landingPage/))
+
+[**Live Demo**](https://mackcodes.github.io/VScode-landingPage/)
+
 A project to create an exact replica of the Visual Studio Code (VS Code) website, built to enhance and solidify my HTML and CSS skills.
 
 ## Purpose
